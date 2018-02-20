@@ -1,0 +1,16 @@
+<h1>Seja bem vindo!</h1>
+<h2><%= t 'hello'  %></h2>   
+<!-- está traduzindo a chave hello (é uma função) para pt-BR graças ao arquivo pt-BR.yml e ao aplication.rb com config.i18n.default_locale = :"pt-BR"  -->
+<p>Find me in app/views/home/index.html.erb</p>
+<ul>
+<li><%= link_to "Tipos", kinds_path %></li>
+<li>
+  <a href="https://meusprojetos-franciscodefreitas90970299.codeanyapp.com/contacts">Contacts</a>
+  </li>
+<li>
+  <a href="https://meusprojetos-franciscodefreitas90970299.codeanyapp.com/phones">Phones</a>
+  </li>
+<li>
+  <a href="https://meusprojetos-franciscodefreitas90970299.codeanyapp.com/addresses">Addresses</a>
+  </li>
+</ul>
